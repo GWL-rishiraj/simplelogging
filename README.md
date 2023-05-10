@@ -6,7 +6,7 @@ simple-logging is a Python package that contains methods for interacting with lo
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install simplelogging like below. 
 Rerun this command to check for and install  updates .
 ```bash
-pip install simplelogging
+pip install simple-glogging
 ```
 
 ## Usage
