@@ -15,7 +15,8 @@ On the host or client code please add a directory at the root level, name it res
 Create a ymal file for log configuration
 below are the simple configuration template
 
-**  handelers:
+```bash
+    handelers:
         file:
             filepath: 'logs/appLog_{:%Y-%m-%d}.json'
             formate: '%(asctime)s %(levelname)s %(name)s %(module)s %(funcName)s %(filename)s %(lineno)s %(message)s'
@@ -25,6 +26,7 @@ below are the simple configuration template
             loglevel: DEBUG
         default_loglevel: ERROR
         default_formate: '%(asctime)s %(levelname)s %(name)s %(module)s %(funcName)s %(filename)s %(lineno)s %(message)s'
+```
 
 
 ##
